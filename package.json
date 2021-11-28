@@ -2,10 +2,9 @@
   "name": "translator-api",
   "version": "1.0.0",
   "description": "Google translator API",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "translator",
@@ -13,10 +12,12 @@
     "scraping",
     "translator-api"
   ],
-  "author": "Shawan Mandal",
+  "author": "Shawan Mandal <imshawan.dev049@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.24.0",
-    "cheerio": "^1.0.0-rc.10"
+    "chai": "^4.3.4",
+    "cheerio": "^1.0.0-rc.10",
+    "mocha": "^9.1.3"
   }
 }
