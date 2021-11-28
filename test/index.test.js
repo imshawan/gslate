@@ -1,12 +1,12 @@
 const assert = require('chai').assert;
 var Should = require('chai').should();
 const { expect } = require('chai');
-const Translater = require('../lib/index');
+const Translator = require('../lib/index');
 
-describe('Testing the Translater module', () => {
+describe('Testing the Translator module', () => {
     
     it('It should return a JSON response of all the supported languages', (done) => {
-        Translater.getLanguages()
+        Translator.getLanguages()
         .then((response) => {
             assert.exists(response);
             Should.exist(response.sl);
@@ -15,7 +15,7 @@ describe('Testing the Translater module', () => {
     })
     
     it('It Should return a translated string, depending upon the query', (done) => {
-        Translater.Translate("Hello", "hi").then((response) => {
+        Translator.Translate("Hello", "hi").then((response) => {
             assert.exists(response);
             assert.isString(response, 'string');
             expect(response).to.eql('नमस्ते');
