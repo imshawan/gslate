@@ -1,6 +1,6 @@
 # Google Translator-api
 
-The google-translator API module for your nodejs projects.
+Google translator API - an open-source javascript library for your NodeJS projects that enables speech translation
 
 ## Install via [npm](https://npmjs.com)
 

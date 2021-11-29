@@ -1,7 +1,7 @@
 {
   "name": "translator-api",
   "version": "1.0.0",
-  "description": "Google translator API",
+  "description": "Google translator API - an open-source javascript library for your NodeJS projects that enables speech translation",
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha --timeout 10000"
