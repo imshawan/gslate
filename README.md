@@ -1,6 +1,6 @@
-# Google gslate
+# Google Translator API (gslate)
 
-Google translator API - an open-source javascript library for your NodeJS projects that enables speech translation
+An open-source javascript library for your NodeJS projects that enables speech translation. Inspired from [goslate](https://pypi.org/project/goslate/).
 
 ## Install via [npm](https://npmjs.com)
 
