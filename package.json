@@ -1,5 +1,5 @@
 {
-  "name": "gslate",
+  "name": "@imshawan/gslate",
   "version": "1.1.0",
   "description": "Google translator API - an open-source javascript library for your NodeJS projects that enables speech translation",
   "main": "index.js",
