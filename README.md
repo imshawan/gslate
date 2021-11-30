@@ -11,9 +11,6 @@ An open-source javascript library for your NodeJS projects that enables speech t
 $ npm install --save @imshawan/gslate
 ```
 
-## Changelog
-- **v1.1.0**: Initial release
-
 ## Usage
 
 ##### `Translator.Translate(param1, param2, param3 [optional] )`
