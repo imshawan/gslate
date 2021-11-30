@@ -1,11 +1,11 @@
-# Google Translator-api
+# Google gslate
 
 Google translator API - an open-source javascript library for your NodeJS projects that enables speech translation
 
 ## Install via [npm](https://npmjs.com)
 
 ```sh
-$ npm install --save translator-api
+$ npm install --save gslate
 ```
 
 ## Changelog
@@ -25,7 +25,7 @@ $ npm install --save translator-api
 #### Example
 
 ```js
-const Translator = require( 'translator-api' )
+const Translator = require( 'gslate' )
 Translator.Translate("Hello", "hi") // "hi" is the language code for Hindi
         .then((response) => {
             console.log(response)
@@ -39,7 +39,7 @@ This method will help you in getting all the languages that are supported along 
 #### Example
 
 ```js
-const Translator = require( 'translator-api' )
+const Translator = require( 'gslate' )
 Translator.getLanguages()
         .then((response) => {
             console.log(response)

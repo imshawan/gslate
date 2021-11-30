@@ -1,5 +1,5 @@
 {
-  "name": "translator-api",
+  "name": "gslate",
   "version": "1.0.0",
   "description": "Google translator API - an open-source javascript library for your NodeJS projects that enables speech translation",
   "main": "lib/index.js",
@@ -10,7 +10,7 @@
     "translator",
     "google translator",
     "scraping",
-    "translator-api"
+    "gslate"
   ],
   "author": "Shawan Mandal <imshawan.dev049@gmail.com>",
   "license": "MIT",
