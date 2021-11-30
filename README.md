@@ -1,15 +1,18 @@
 # Google Translator API
 
+[![npm](https://img.shields.io/npm/v/@imshawan/gslate.svg?style=flat-square)](https://www.npmjs.com/package/@imshawan/gslate)
+[![npm license](https://img.shields.io/npm/l/@imshawan/gslate.svg?style=flat-square)](https://www.npmjs.com/package/@imshawan/gslate)
+
 An open-source javascript library for your NodeJS projects that enables speech translation. Inspired from [goslate](https://pypi.org/project/goslate/).
 
-## Install via [npm](https://npmjs.com)
+## Install via [npm](https://www.npmjs.com/package/@imshawan/gslate)
 
 ```sh
 $ npm install --save @imshawan/gslate
 ```
 
 ## Changelog
-- **v1.0.0**: Initial release
+- **v1.1.0**: Initial release
 
 ## Usage
 
